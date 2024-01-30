@@ -97,4 +97,13 @@ Wybór najlepszego modelu zależy od konkretnej aplikacji i preferencji między 
 Uwagi końcowe
 Analiza wyników pozwala lepiej zrozumieć mocne i słabe strony poszczególnych modeli, co może pomóc w dalszym doskonaleniu aplikacji podsumowującej tekst. Warto również uwzględnić indywidualne potrzeby i kontekst zastosowania w wyborze optymalnego modelu do konkretnego zadania.
 
+## Dodatkowe Informacje
+Projekt korzysta z biblioteki transformers do pracy z modelami podsumowującymi tekst.
+Wykorzystuje metryki ROUGE (Recall-Oriented Understudy for Gisting Evaluation) do oceny efektywności generowanych podsumowań.
+W pliku all_data.txt znajdują się zestawy testowe do oceny modeli.
+
+Autor
+Nikodem Kunach
+s25030@pjwstk.edu.pl
+
 ## Upewnij się, że ścieżki do plików i wszelkie inne parametry są dostosowane do Twojej struktury katalogów i danych.
