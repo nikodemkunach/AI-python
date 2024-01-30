@@ -1,5 +1,14 @@
 # NAI Projekt - Porównanie Efektywności Modeli Podsumowywania Tekstu
 
+## Początkowe Informacje
+Projekt korzysta z biblioteki transformers do pracy z modelami podsumowującymi tekst.
+Wykorzystuje metryki ROUGE (Recall-Oriented Understudy for Gisting Evaluation) do oceny efektywności generowanych podsumowań.
+W pliku all_data.txt znajdują się zestawy testowe do oceny modeli.
+
+Autor
+Nikodem Kunach
+s25030@pjwstk.edu.pl
+
 ## Opis Projektu
 Projekt skupia się na porównaniu efektywności trzech różnych modeli podsumowywania tekstu: "facebook/bart-large-cnn", "sshleifer/distilbart-cnn-12-6", i "philschmid/bart-large-cnn-samsum". Celem jest zrozumienie, który z tych modeli generuje najbardziej sensowne podsumowania tekstu na podstawie różnorodnych przypadków testowych.
 
@@ -96,14 +105,5 @@ Wyniki stabilizują się przy większej ilości danych testowych, co może pomó
 Wybór najlepszego modelu zależy od konkretnej aplikacji i preferencji między precyzją a recall.
 Uwagi końcowe
 Analiza wyników pozwala lepiej zrozumieć mocne i słabe strony poszczególnych modeli, co może pomóc w dalszym doskonaleniu aplikacji podsumowującej tekst. Warto również uwzględnić indywidualne potrzeby i kontekst zastosowania w wyborze optymalnego modelu do konkretnego zadania.
-
-## Dodatkowe Informacje
-Projekt korzysta z biblioteki transformers do pracy z modelami podsumowującymi tekst.
-Wykorzystuje metryki ROUGE (Recall-Oriented Understudy for Gisting Evaluation) do oceny efektywności generowanych podsumowań.
-W pliku all_data.txt znajdują się zestawy testowe do oceny modeli.
-
-Autor
-Nikodem Kunach
-s25030@pjwstk.edu.pl
 
 ## Upewnij się, że ścieżki do plików i wszelkie inne parametry są dostosowane do Twojej struktury katalogów i danych.
