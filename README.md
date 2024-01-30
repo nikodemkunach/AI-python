@@ -1,4 +1,4 @@
-# NAI Projekt - Porównanie Efektywności Modeli Podsumowywania Tekstu
+# Narzędzia Sztucznej Inteligencji Projekt - Porównanie Efektywności Modeli Podsumowywania Tekstu
 
 ## Początkowe Informacje
 Projekt korzysta z biblioteki transformers do pracy z modelami podsumowującymi tekst.
